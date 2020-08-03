@@ -1,0 +1,38 @@
+header {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    height: 50px;
+    background-color: #121212;
+}
+header .wrap {
+        display: block;
+        width: 100%;
+        // margin: 0 auto;
+        max-width: 980px;
+
+        .logo {
+            display: block;
+            width: 140px;
+            position: inherit;
+            left: 10px;
+            top: 50%;
+            padding-top: 20px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            img {
+                display: block;
+                width: 40%;
+                padding-top: 19px;
+                padding-left: 20px;
+                // margin: -10%;
+                // margin-top: -120%;
+
+            }
+        }
+    }
+
+
