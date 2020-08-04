@@ -5,10 +5,10 @@ import Logo from './../../assets/images/jestLogo.png';
 
 const Header = (props) => {
     return(
-    <header>
+    <header data-test="headerComponent">
         <div className='wrap'>
             <div className='logo'>
-                <img src={Logo} alt="Logo" />
+                <img data-test="logoImg" src={Logo} alt="Logo" />
             </div>
         </div>
 
